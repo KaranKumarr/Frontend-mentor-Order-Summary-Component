@@ -25,47 +25,58 @@
 
 <body>
 
-  <main>
+  <main class="order_summary_container">
 
     <!-- Header Image -->
 
-    <img src="./images/illustration-hero.svg" alt="illustration-hero">
+    <img class="header_img" src="./images/illustration-hero.svg" alt="illustration-hero">
 
     <!-- Heading -->
-    <h1>
+    <h1 class="heading">
       Order Summary
     </h1>
 
     <!-- Paragraph -->
-    <p>
-      You can now listen to millions of songs, audiobooks, and podcasts on any
-      device anywhere you like!
-    </p>
+    <div class="paragraph_container">
+      <p class="paragraph_text">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+    </div>
 
     <!-- Annual Plan Segment -->
-    <div>
+    <div class="annual_plan_container">
       <!-- Music Icon -->
-      <div></div>
-      <h2>
-        Annual Plan
-      </h2>
-      <p>
-        $59.99/year
-      </p>
-      <button>
+      <div class="music_icon_container">
+        <img class="music_icon" src="./images/icon-music.svg" alt="">
+      </div>
+
+      <div class="annual_plan_pricing">
+        <h3 class="annual_plan_heading">
+          Annual Plan
+        </h3>
+
+        <p class="paragraph_text">
+          $59.99/year
+        </p>
+      </div>
+
+      <button class="change_btn">
         Change
       </button>
     </div>
 
-    <!-- Payment Button -->
-    <button>
-      Proceed to Payment
-    </button>
+    <div class="btn_container">
+      <!-- Payment Button -->
+      <button class="payment_btn">
+        Proceed to Payment
+      </button>
 
-    <!-- Cancel Button -->
-    <button>
-      Cancel Order
-    </button>
+      <!-- Cancel Button -->
+      <button class="cancel_btn">
+        Cancel Order
+      </button>
+    </div>
   </main>
 
   <div class="attribution">
